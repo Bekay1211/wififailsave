@@ -10,6 +10,13 @@ while True:
     print("running..")
     for i in progressbar.progressbar(range(100)):
         sleep(0.2)
-    ap.stop() if connect() else ap.start()
+    connected = true if connect() else false
+
+    if not connected:
+        ap.start()
+        #more stuff :)
+    else:
+        ap.stop()
+        #maybe also more stuff - port rerouting n sht 🥵
 
 

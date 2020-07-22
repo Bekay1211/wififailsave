@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+}
+
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+pre {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+hr {
+    width: 10em;
+}
+
+#head {
+}
+
+#main {
+}
